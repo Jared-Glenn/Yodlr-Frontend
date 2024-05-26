@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&family=Orbitron:wght@500&display=swap" rel="stylesheet"');
+
+body, html {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/website_background.jpg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  place-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 15vh;
+  background-color: transparent;
+  overflow-y: auto;
+  position: relative;
+  top: 0;
+}
+
+.error {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.signup-anchor {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-button {
+  background-color: rgb(207, 100, 0);
+  color: white;
+}
+
+.signup-button:hover {
+  border-color: rgb(251, 255, 0);
+}

@@ -1,0 +1,47 @@
+span {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    background-color: rgb(255, 201, 140);
+    height: 3.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(255, 174, 0, 0.1);
+}
+
+.navbar-link {
+    margin: 0px 30px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: rgb(245, 132, 3);
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px 5px;
+    min-width: 100px;
+}
+
+.navbar-link:hover {
+    background-color: rgb(245, 132, 3);
+    color: white;
+    border-color: rgb(168, 90, 1);
+}
+
+.navbar-home {
+    color: rgb(255, 188, 3);
+    text-shadow: 0px 1px 4px black;
+    font-size: 30px;
+    font-family: "Federant", serif;
+}
+
+.navbar-home:hover {
+    color: rgb(88, 35, 0);
+}
